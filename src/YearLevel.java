@@ -1,3 +1,4 @@
+package com.example.studentmanagementsystem;
 public enum YearLevel {
     FIRST_YEAR,
     SECOND_YEAR,

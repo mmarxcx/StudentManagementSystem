@@ -10,7 +10,7 @@ public class MainApp extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         // This looks for the visual layout we built in SceneBuilder
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/welcome.fxml"));`1
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/welcome.fxml"));
         Scene scene = new Scene(loader.load());
 
         stage.setTitle("Student Management System");

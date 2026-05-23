@@ -1,3 +1,5 @@
+package com.example.studentmanagementsystem;
+
 import javafx.collections.*;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
