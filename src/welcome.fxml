@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanagementsystem.WelcomeController">
+   <children>
+      <Label layoutX="52.0" layoutY="135.0" text="Welcome to Student Management System">
+         <font>
+            <Font name="Century Gothic Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="250.0" layoutY="182.0" mnemonicParsing="false" onAction="#onGoClicked" text="Proceed">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
